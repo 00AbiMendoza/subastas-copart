@@ -1,0 +1,25 @@
+# Blueprint de Render: un solo servicio web (API + Socket.IO + SPA compilada).
+services:
+  - type: web
+    name: autosubasta-gt
+    runtime: node
+    plan: free
+    region: ohio
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DB_USER
+        value: UsuarioEncuestas
+      - key: DB_SERVER
+        value: svr-sql-ctezo.southcentralus.cloudapp.azure.com
+      - key: DB_DATABASE
+        value: db_WebDevUMG
+      - key: DB_PORT
+        value: "1433"
+      - key: DB_PASSWORD
+        sync: false # se ingresa manualmente en el panel de Render
+      - key: JWT_SECRET
+        generateValue: true # Render genera un secreto aleatorio

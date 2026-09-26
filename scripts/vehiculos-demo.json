@@ -1,0 +1,207 @@
+[
+  {
+    "anio": 2020,
+    "tipoArticulo": "Automóvil",
+    "marca": "Toyota",
+    "modelo": "Corolla LE",
+    "motor": "1.8L I4",
+    "transmision": "CVT",
+    "combustible": "Gasolina",
+    "tren": "FWD",
+    "cilindros": 4,
+    "dano": "VERDE",
+    "montoBase": 20000,
+    "dias": 2,
+    "descripcion": "Golpe leve en defensa trasera. Enciende y camina. Llaves disponibles.",
+    "publicador": "ana",
+    "oferta": [
+      "bruno",
+      22000
+    ],
+    "fotos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/2020_Toyota_Corolla_LE_12-13-2019.jpg/1280px-2020_Toyota_Corolla_LE_12-13-2019.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/2020_Toyota_Corolla_Cross_-_Front.jpg/1280px-2020_Toyota_Corolla_Cross_-_Front.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/2020_Toyota_Corolla_Cross_-_Rear.jpg/1280px-2020_Toyota_Corolla_Cross_-_Rear.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/2020_Toyota_Corolla_Cross_-_Side.jpg/1280px-2020_Toyota_Corolla_Cross_-_Side.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/2022_Toyota_Corolla_Cross_L_FWD%2C_Front_Left%2C_11-21-2021.jpg/1280px-2022_Toyota_Corolla_Cross_L_FWD%2C_Front_Left%2C_11-21-2021.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Toyota_Frontlander_IMG002.jpg/1280px-Toyota_Frontlander_IMG002.jpg"
+    ]
+  },
+  {
+    "anio": 2019,
+    "tipoArticulo": "Automóvil",
+    "marca": "Honda",
+    "modelo": "Civic EX",
+    "motor": "2.0L I4",
+    "transmision": "CVT",
+    "combustible": "Gasolina",
+    "tren": "FWD",
+    "cilindros": 4,
+    "dano": "AMARILLO",
+    "montoBase": 25000,
+    "dias": 1,
+    "descripcion": "Daño frontal lateral izquierdo, bolsas de aire intactas.",
+    "publicador": "bruno",
+    "fotos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/2019_Honda_Civic_Sedan%2C_Cleveland_Auto_Show.jpg/1280px-2019_Honda_Civic_Sedan%2C_Cleveland_Auto_Show.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/2019_Honda_Civic_Si_Sedan%2C_Cleveland_Auto_Show.jpg/1280px-2019_Honda_Civic_Si_Sedan%2C_Cleveland_Auto_Show.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Honda_Civic_in_Thailand_1.jpg/1280px-Honda_Civic_in_Thailand_1.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/1991_Honda_Civic_DX_Special_Edition_Sedan_in_Cappuccino_Brown_Metallic%2C_front_left%2C_2019-06-14.jpg/1280px-1991_Honda_Civic_DX_Special_Edition_Sedan_in_Cappuccino_Brown_Metallic%2C_front_left%2C_2019-06-14.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Honda_Civic_sedan_facelift_%2848788267776%29.jpg/1280px-Honda_Civic_sedan_facelift_%2848788267776%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Honda_Civic_Sedan_%2849560582181%29.jpg/1280px-Honda_Civic_Sedan_%2849560582181%29.jpg"
+    ]
+  },
+  {
+    "anio": 2018,
+    "tipoArticulo": "Pickup",
+    "marca": "Ford",
+    "modelo": "F-150 XLT",
+    "motor": "5.0L V8",
+    "transmision": "Automática",
+    "combustible": "Gasolina",
+    "tren": "4WD",
+    "cilindros": 8,
+    "dano": "ROJO",
+    "montoBase": 45000,
+    "dias": 3,
+    "descripcion": "Salvamento por inundación. Se vende para repuestos o reconstrucción.",
+    "publicador": "carla",
+    "oferta": [
+      "ana",
+      49500
+    ],
+    "fotos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2018_Ford_F-150_Limited_au_SIAM_2018.jpg/1280px-2018_Ford_F-150_Limited_au_SIAM_2018.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/2018_Ford_F-150_au_SIAM_2018.jpg/1280px-2018_Ford_F-150_au_SIAM_2018.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/2018_Ford_F-150_Platinum_au_SIAM_2018.jpg/1280px-2018_Ford_F-150_Platinum_au_SIAM_2018.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2018_Ford_F-150_XLT_rear_5.19.18.jpg/1280px-2018_Ford_F-150_XLT_rear_5.19.18.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/2018_Ford_F-150_Crew_Cab_rear_5.26.18.jpg/1280px-2018_Ford_F-150_Crew_Cab_rear_5.26.18.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2018_Ford_F-150_Crew_Cab_front_5.26.18.jpg/1280px-2018_Ford_F-150_Crew_Cab_front_5.26.18.jpg"
+    ]
+  },
+  {
+    "anio": 2021,
+    "tipoArticulo": "SUV",
+    "marca": "Jeep",
+    "modelo": "Wrangler Sport",
+    "motor": "3.6L V6",
+    "transmision": "Manual",
+    "combustible": "Gasolina",
+    "tren": "4WD",
+    "cilindros": 6,
+    "dano": "VERDE",
+    "montoBase": 90000,
+    "minutos": 25,
+    "descripcion": "Rayones superficiales en puertas. Mecánicamente en buen estado.",
+    "publicador": "ana",
+    "fotos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2013_Jeep_Wrangler_Sahara%2C_Rear_Right%2C_04-10-2021.jpg/1280px-2013_Jeep_Wrangler_Sahara%2C_Rear_Right%2C_04-10-2021.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/2021_Jeep_Wrangler_JL_two-door_Islander_3of3.jpg/1280px-2021_Jeep_Wrangler_JL_two-door_Islander_3of3.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/2021_Jeep_Wrangler_JL_two-door_Islander_2of3.jpg/1280px-2021_Jeep_Wrangler_JL_two-door_Islander_2of3.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2021_Jeep_Wrangler_JL_two-door_Islander_1of3.jpg/1280px-2021_Jeep_Wrangler_JL_two-door_Islander_1of3.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/2021_Arlington_Independence_Day_Parade_106_%28Jeep_Wrangler%29.jpg/1280px-2021_Arlington_Independence_Day_Parade_106_%28Jeep_Wrangler%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Jeep_Wrangler_YJ_-_W002.jpg/1280px-Jeep_Wrangler_YJ_-_W002.jpg"
+    ]
+  },
+  {
+    "anio": 2019,
+    "tipoArticulo": "Automóvil",
+    "marca": "Nissan",
+    "modelo": "Sentra SV",
+    "motor": "1.8L I4",
+    "transmision": "Automática",
+    "combustible": "Gasolina",
+    "tren": "FWD",
+    "cilindros": 4,
+    "dano": "AMARILLO",
+    "montoBase": 18000,
+    "dias": 4,
+    "descripcion": "Daño en cofre y faro derecho.",
+    "publicador": "bruno",
+    "oferta": [
+      "carla",
+      18000
+    ],
+    "fotos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Nissan_Sentra_2008_%2830445364628%29.jpg/1280px-Nissan_Sentra_2008_%2830445364628%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Nissan_Sentra_2001_%2826512496829%29.jpg/1280px-Nissan_Sentra_2001_%2826512496829%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Reilly_Security_Nissan_Sentra_02.jpg/1280px-Reilly_Security_Nissan_Sentra_02.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Nissan_Sentra_B17_Taiwanese_facelift.jpg/1280px-Nissan_Sentra_B17_Taiwanese_facelift.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nissan_Sentra_and_Proton_Persona_%282%29.jpg/1280px-Nissan_Sentra_and_Proton_Persona_%282%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/2020_Nissan_Sentra_rearview.jpg/1280px-2020_Nissan_Sentra_rearview.jpg"
+    ]
+  },
+  {
+    "anio": 2020,
+    "tipoArticulo": "SUV",
+    "marca": "Hyundai",
+    "modelo": "Tucson SEL",
+    "motor": "2.4L I4",
+    "transmision": "Automática",
+    "combustible": "Gasolina",
+    "tren": "AWD",
+    "cilindros": 4,
+    "dano": "ROJO",
+    "montoBase": 30000,
+    "dias": 2,
+    "descripcion": "Volcadura. Estructura comprometida; ideal para piezas.",
+    "publicador": "carla",
+    "fotos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Hyundai_Tucson_TL_Wien_26_July_2020_JM.jpg/1280px-Hyundai_Tucson_TL_Wien_26_July_2020_JM.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Hyundai_Tucson_Chinese_facelift_003.jpg/1280px-Hyundai_Tucson_Chinese_facelift_003.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Hyundai_Tucson_%28NX4%29_IMG_3676.jpg/1280px-Hyundai_Tucson_%28NX4%29_IMG_3676.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Hyundai_Tucson_%28NX4%29_IMG_3678.jpg/1280px-Hyundai_Tucson_%28NX4%29_IMG_3678.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Hyundai_Tucson_Inspiration_NX4_Gray_Interior_%284%29.jpg/1280px-Hyundai_Tucson_Inspiration_NX4_Gray_Interior_%284%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/HYUNDAI_TUCSON_HYBRID_%28NX4%29_CHINA_VERSION_INTERIOR.jpg/1280px-HYUNDAI_TUCSON_HYBRID_%28NX4%29_CHINA_VERSION_INTERIOR.jpg"
+    ]
+  },
+  {
+    "anio": 2021,
+    "tipoArticulo": "Automóvil",
+    "marca": "Tesla",
+    "modelo": "Model 3 Long Range",
+    "motor": "Eléctrico dual",
+    "transmision": "Automática",
+    "combustible": "Eléctrico",
+    "tren": "AWD",
+    "cilindros": 0,
+    "dano": "VERDE",
+    "montoBase": 150000,
+    "inicioHoras": 2,
+    "dias": 5,
+    "descripcion": "Batería en buen estado. Daño cosmético en rin.",
+    "publicador": "ana",
+    "fotos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Tesla_Model_3_1X7A6940.jpg/1280px-Tesla_Model_3_1X7A6940.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Tesla_Model_S_%282023%29_Motorworld_Munich_1X7A0025.jpg/1280px-Tesla_Model_S_%282023%29_Motorworld_Munich_1X7A0025.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Tesla_Model_3_%282023%29_Auto_Zuerich_2023_1X7A1313.jpg/1280px-Tesla_Model_3_%282023%29_Auto_Zuerich_2023_1X7A1313.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Tesla_Model_3_%282023%29_1X7A1678.jpg/1280px-Tesla_Model_3_%282023%29_1X7A1678.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Tesla_Model_3_in_M%C3%BCnchen_geparkt.jpg/1280px-Tesla_Model_3_in_M%C3%BCnchen_geparkt.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Tesla_Model_3_%282023%29_Autofr%C3%BChling_Ulm_IMG_9282.jpg/1280px-Tesla_Model_3_%282023%29_Autofr%C3%BChling_Ulm_IMG_9282.jpg"
+    ]
+  },
+  {
+    "anio": 2017,
+    "tipoArticulo": "Pickup",
+    "marca": "Chevrolet",
+    "modelo": "Silverado 1500 LT",
+    "motor": "5.3L V8",
+    "transmision": "Automática",
+    "combustible": "Gasolina",
+    "tren": "RWD",
+    "cilindros": 8,
+    "dano": "AMARILLO",
+    "montoBase": 38000,
+    "dias": 3,
+    "descripcion": "Golpe en caja trasera, motor y transmisión funcionales.",
+    "publicador": "bruno",
+    "fotos": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/2017_chevrolet_silverado_1500_wt_regular_standard_obseve.jpg/1280px-2017_chevrolet_silverado_1500_wt_regular_standard_obseve.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/2017_chevrolet_silverado_1500_wt_regular_standard_reverse.jpg/1280px-2017_chevrolet_silverado_1500_wt_regular_standard_reverse.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Chevrolet_Silverado_2017_Pickup_Truck_Front.jpg/1280px-Chevrolet_Silverado_2017_Pickup_Truck_Front.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Chevrolet_Silverado_2017_Pickup_Truck_Side_Front.jpg/1280px-Chevrolet_Silverado_2017_Pickup_Truck_Side_Front.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Chevrolet_Silverado_2017_Pickup_Truck_Back.jpg/1280px-Chevrolet_Silverado_2017_Pickup_Truck_Back.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Chevrolet_Silverado_2017_Pickup_Truck_Boot.jpg/1280px-Chevrolet_Silverado_2017_Pickup_Truck_Boot.jpg"
+    ]
+  }
+]
