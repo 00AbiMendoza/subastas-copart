@@ -87,9 +87,10 @@ async function listar(req, { soloMios = false } = {}) {
     request.input(param, tipo, tipo === sql.Int ? Number(valor) : valor);
     where.push(`v.${columna} = @${param}`);
   }
-  if (texto(q.modelo)) {
-    request.input('modelo', sql.NVarChar(82), `%${texto(q.modelo)}%`);
-    where.push('v.Modelo LIKE @modelo');
+  for (const [param, columna] of [['modelo', 'Modelo'], ['motor', 'Motor']]) {
+    if (!texto(q[param])) continue;
+    request.input(param, sql.NVarChar(102), `%${texto(q[param])}%`);
+    where.push(`v.${columna} LIKE @${param}`);
   }
   if (texto(q.q)) {
     request.input('q', sql.NVarChar(102), `%${texto(q.q)}%`);
@@ -113,13 +114,25 @@ async function listar(req, { soloMios = false } = {}) {
     where.push('v.PublicadorID = @uid');
   }
 
+  // Con sesión se calcula, por vehículo, si el usuario ya ofertó (para "vas ganando" / "te superaron").
+  const yo = req.usuarioId;
+  if (yo != null) request.input('yo', sql.Int, yo);
+  const columnaHeOfertado = yo != null
+    ? `, CASE WHEN EXISTS (SELECT 1 FROM ${T.pujas} p WHERE p.VehiculoID = v.VehiculoID AND p.UsuarioID = @yo) THEN 1 ELSE 0 END AS HeOfertado`
+    : '';
+
   const { recordset } = await request.query(`
-    SELECT ${COLUMNAS}, f.FotoID AS PortadaID, f.Url AS PortadaUrl
+    SELECT ${COLUMNAS}, f.FotoID AS PortadaID, f.Url AS PortadaUrl ${columnaHeOfertado}
     FROM ${T.vehiculos} v
     OUTER APPLY (SELECT TOP 1 FotoID, Url FROM ${T.fotos} WHERE VehiculoID = v.VehiculoID ORDER BY Orden) f
     ${where.length ? `WHERE ${where.join(' AND ')}` : ''}
     ORDER BY ${ORDENES[q.orden] || ORDENES.cierre}`);
-  return recordset.map((v) => aJson(v, req.usuarioId));
+
+  return recordset.map((v) => {
+    const json = aJson(v, yo);
+    json.miEstado = miEstado(yo, v, new Set(v.HeOfertado ? [yo] : []), json.estado);
+    return json;
+  });
 }
 
 // GET /api/vehiculos — público (modo lectura para anónimos).

@@ -7,7 +7,7 @@ import { DANOS } from '../util';
 import VehiculoCard from '../components/VehiculoCard';
 
 const VACIO = {
-  q: '', marca: '', modelo: '', anioMin: '', anioMax: '', tipo: '', combustible: '',
+  q: '', marca: '', modelo: '', motor: '', anioMin: '', anioMax: '', tipo: '', combustible: '',
   transmision: '', tren: '', cilindros: '', dano: '', estado: '', orden: 'cierre',
 };
 
@@ -77,11 +77,15 @@ export default function Home() {
       cargar();
       cargarCatalogos();
     };
+    const miEstado = ({ vehiculoId, miEstado: estado }) =>
+      setVehiculos((lista) => lista.map((v) => (v.id === vehiculoId ? { ...v, miEstado: estado } : v)));
     socket.on('inventario:actualizado', actualizar);
     socket.on('inventario:cambio', cambio);
+    socket.on('inventario:mi-estado', miEstado);
     return () => {
       socket.off('inventario:actualizado', actualizar);
       socket.off('inventario:cambio', cambio);
+      socket.off('inventario:mi-estado', miEstado);
     };
   }, [cargar, cargarCatalogos]);
 
@@ -157,6 +161,10 @@ export default function Home() {
             <span>Modelo</span>
             <input type="text" placeholder="Ej. Corolla" value={filtros.modelo} onChange={(e) => set('modelo')(e.target.value)} />
           </label>
+          <label className="filtro">
+            <span>Motor</span>
+            <input type="text" placeholder="Ej. V8, 2.0L, Eléctrico" value={filtros.motor} onChange={(e) => set('motor')(e.target.value)} />
+          </label>
           <div className="filtro-doble">
             <Select etiqueta="Año desde" valor={filtros.anioMin} onChange={set('anioMin')} todos="—" opciones={[...anios].reverse()} />
             <Select etiqueta="Año hasta" valor={filtros.anioMax} onChange={set('anioMax')} todos="—" opciones={anios} />
@@ -175,7 +183,7 @@ export default function Home() {
             </button>
             <p><b>{vehiculos.length}</b> {vehiculos.length === 1 ? 'vehículo' : 'vehículos'}</p>
             <label className="orden">
-              Ordenar por
+              <span>Ordenar por</span>
               <select value={filtros.orden} onChange={(e) => set('orden')(e.target.value)}>
                 <option value="cierre">Cierran pronto</option>
                 <option value="recientes">Más recientes</option>

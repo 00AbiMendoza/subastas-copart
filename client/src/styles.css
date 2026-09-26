@@ -120,7 +120,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .dano-opcion--amarillo.activa { background: var(--amarillo-suave); border-color: var(--amarillo); color: #a86f00; }
 .dano-opcion--rojo.activa { background: var(--rojo-suave); border-color: var(--rojo); color: var(--rojo); }
 
-.resultados__barra { display: flex; align-items: center; gap: 12px; margin: 34px 0 14px; }
+.resultados__barra { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 34px 0 14px; }
 .resultados__barra p { margin: 0; color: var(--texto-2); }
 .orden { margin-left: auto; display: flex; align-items: center; gap: 8px; font-size: .85rem; color: var(--texto-2); font-weight: 600; }
 .orden select { width: auto; padding: 7px 10px; }
@@ -138,6 +138,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .card__sin-foto { display: grid; place-items: center; height: 100%; color: var(--texto-3); }
 .card__chips { position: absolute; top: 10px; left: 10px; right: 10px; display: flex; justify-content: space-between; gap: 6px; }
 .card__mio { position: absolute; bottom: 10px; left: 10px; background: rgba(255, 255, 255, .95); color: var(--primario); font-size: .72rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; }
+.card__indicador { position: absolute; bottom: 10px; right: 10px; font-size: .74rem; font-weight: 800; padding: 4px 10px; border-radius: 999px; box-shadow: 0 1px 3px rgba(0, 0, 0, .15); }
+.card__indicador--ganando { background: var(--verde); color: #fff; }
+.card__indicador--superado { background: var(--rojo); color: #fff; animation: sacudir .5s; }
 .card__cuerpo { padding: 14px 16px 16px; display: grid; gap: 6px; flex: 1; }
 .card__lote { font-size: .75rem; color: var(--texto-3); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
 .card__titulo { font-size: 1.08rem; font-weight: 800; }
@@ -175,6 +178,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .detalle__titulo p { color: var(--texto-2); margin: 6px 0 0; }
 .detalle__grid { display: grid; grid-template-columns: 1.55fr 1fr; gap: 22px; align-items: start; }
 .detalle__izq, .detalle__der { display: grid; gap: 18px; }
+/* Sin esto, un hijo ancho (p. ej. la fila de miniaturas) estira la columna y desborda en celular. */
+.detalle__grid > *, .inventario > *, .hero__contenido > *, .carrusel { min-width: 0; }
 .detalle__der { position: sticky; top: 80px; }
 .tarjeta { background: var(--superficie); border: 1px solid var(--borde); border-radius: var(--radio); padding: 20px; box-shadow: var(--sombra); }
 .tarjeta h2 { margin-bottom: 14px; }

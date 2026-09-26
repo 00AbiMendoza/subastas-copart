@@ -35,9 +35,9 @@ Los usuarios se crean automáticamente al iniciar el servidor. También se puede
 | **I** | Git y publicación | Repositorio público, sitio desplegado en Render, link y 3 usuarios en este README. |
 | **I** | Autenticación | Registro (nombre, apellido, correo, teléfono, contraseña segura) y login con **JWT**. Contraseñas con **bcrypt**. Anónimos solo ven el inventario y el detalle en **modo lectura**; publicar, editar y ofertar exigen sesión (validado en el servidor). |
 | **II** | Vehículo y galería | Ficha técnica completa (año, tipo, marca, modelo, motor, transmisión, combustible, tren AWD/FWD/RWD/4WD, cilindros), daño 🟢🟡🔴 y **mínimo 5 fotos** (validado en servidor). Carrusel interactivo con flechas, miniaturas y teclado. |
-| **II** | Catálogo y filtros | Home con *cards* y **filtros combinables**: búsqueda libre, daño, estado, marca, modelo, rango de años, tipo, combustible, transmisión, tren, cilindros + ordenamiento. |
+| **II** | Catálogo y filtros | Home con *cards* y **filtros combinables**: búsqueda libre, daño, estado, marca, modelo, motor, rango de años, tipo, combustible, transmisión, tren, cilindros + ordenamiento. |
 | **II** | Edición | "Mis publicaciones" con buscador; solo el publicador puede editar (validado en servidor). Si ya hay ofertas no se puede bajar el monto base ni mover el inicio. |
-| **III** | Tiempo real | Socket.IO: la oferta actual, el historial, el temporizador y los indicadores **"¡Vas ganando!" / "Tu oferta ha sido superada"** se actualizan en vivo **sin F5**. Los postores son **anónimos**: el cliente nunca recibe identidades. |
+| **III** | Tiempo real | Socket.IO: la oferta actual, el historial, el temporizador y los indicadores **"¡Vas ganando!" / "Tu oferta ha sido superada"** se actualizan en vivo **sin F5**, tanto en el detalle como en las tarjetas del inventario. Los postores son **anónimos**: el cliente nunca recibe identidades. |
 | **III** | Reglas de puja | Validadas **en el servidor** dentro de una transacción con bloqueo: oferta ≥ monto base, ≥ oferta actual **+10 %**, dentro de la ventana inicio/cierre, sin ofertar en lo propio. Al vencer el tiempo: **"Oferta cerrada"**, y la subasta queda **VENDIDA** o **DESIERTA** (sin ofertas ≥ base). |
 
 ---
@@ -120,7 +120,7 @@ subastas-copart/
 | POST | `/api/auth/login` | — | Iniciar sesión (devuelve JWT) |
 | GET | `/api/auth/yo` | ✔ | Usuario de la sesión |
 | GET | `/api/catalogos` | — | Catálogos (tipos, combustibles, transmisiones, trenes, daños, marcas) |
-| GET | `/api/vehiculos` | opcional | Inventario con filtros (`q, marca, modelo, anioMin, anioMax, tipo, combustible, transmision, tren, cilindros, dano, estado, orden`) |
+| GET | `/api/vehiculos` | opcional | Inventario con filtros (`q, marca, modelo, motor, anioMin, anioMax, tipo, combustible, transmision, tren, cilindros, dano, estado, orden`) |
 | GET | `/api/vehiculos/mios?q=` | ✔ | Publicaciones del usuario |
 | GET | `/api/vehiculos/:id` | opcional | Detalle, fotos, historial anónimo e indicador personal |
 | POST | `/api/vehiculos` | ✔ | Publicar vehículo |
@@ -129,7 +129,7 @@ subastas-copart/
 | GET | `/api/fotos/:id` | — | Imagen |
 | GET | `/api/health` | — | Estado de API y BD |
 
-**Eventos Socket.IO:** `subasta:unirse` / `subasta:salir` (cliente → servidor); `subasta:actualizada` (monto, estado, siguiente mínimo e indicador personal), `inventario:actualizado`, `inventario:cambio`, `vehiculo:editado` (servidor → cliente).
+**Eventos Socket.IO:** `subasta:unirse` / `subasta:salir` (cliente → servidor); `subasta:actualizada` (monto, estado, siguiente mínimo e indicador personal), `inventario:actualizado`, `inventario:mi-estado`, `inventario:cambio`, `vehiculo:editado` (servidor → cliente).
 
 ---
 

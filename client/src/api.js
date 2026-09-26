@@ -29,6 +29,8 @@ export async function api(ruta, { metodo = 'GET', cuerpo } = {}) {
   });
   const datos = await res.json().catch(() => ({}));
   if (datos?.serverTime) sincronizarHora(datos.serverTime);
+  // Token vencido o inválido: se avisa a la app para cerrar la sesión local.
+  if (res.status === 401 && token) window.dispatchEvent(new Event('sesion-expirada'));
   if (!res.ok) throw new ErrorApi(res.status, datos);
   return datos;
 }

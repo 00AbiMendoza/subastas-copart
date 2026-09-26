@@ -84,6 +84,15 @@ async function emitirSubasta(vehiculoId) {
   for (const s of sockets) {
     s.emit('subasta:actualizada', { ...pub, miEstado: miEstado(s.data.usuarioId, v, v.postores, pub.estado) });
   }
+
+  // Quienes ofertaron en este vehículo reciben su indicador aunque estén en el inventario.
+  if (v.postores.size) {
+    for (const s of await io.fetchSockets()) {
+      if (v.postores.has(s.data.usuarioId)) {
+        s.emit('inventario:mi-estado', { vehiculoId, miEstado: miEstado(s.data.usuarioId, v, v.postores, pub.estado) });
+      }
+    }
+  }
 }
 
 /** Avisa que cambió la publicación (edición) para que los clientes recarguen el detalle. */

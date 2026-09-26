@@ -67,6 +67,15 @@ export function AuthProvider({ children }) {
     reconectarSocket();
   }, []);
 
+  useEffect(() => {
+    const expirada = () => {
+      salir();
+      alert('Tu sesión expiró. Inicia sesión de nuevo para continuar.');
+    };
+    window.addEventListener('sesion-expirada', expirada);
+    return () => window.removeEventListener('sesion-expirada', expirada);
+  }, [salir]);
+
   const valor = useMemo(() => ({ usuario, login, registro, salir }), [usuario, login, registro, salir]);
   return <AuthContext.Provider value={valor}>{children}</AuthContext.Provider>;
 }

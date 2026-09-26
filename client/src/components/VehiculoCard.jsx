@@ -3,6 +3,13 @@ import { formatoQ } from '../util';
 import { estadoEnVivo, useAhora } from '../tiempo';
 import { DanoBadge, EstadoChip, Temporizador } from './Etiquetas';
 
+// Estado personal de la puja, visible desde el inventario (se actualiza en vivo).
+const INDICADOR = {
+  GANANDO: { texto: '● Vas ganando', clase: 'card__indicador--ganando' },
+  SUPERADO: { texto: '▲ Te superaron', clase: 'card__indicador--superado' },
+  GANASTE: { texto: '🏆 Ganaste', clase: 'card__indicador--ganando' },
+};
+
 export default function VehiculoCard({ v, destello }) {
   const ahora = useAhora();
   const estado = estadoEnVivo(v, ahora);
@@ -17,6 +24,9 @@ export default function VehiculoCard({ v, destello }) {
           <DanoBadge dano={v.dano} />
         </div>
         {v.esMio && <span className="card__mio">Tu publicación</span>}
+        {INDICADOR[v.miEstado] && (
+          <span className={`card__indicador ${INDICADOR[v.miEstado].clase}`}>{INDICADOR[v.miEstado].texto}</span>
+        )}
       </div>
       <div className="card__cuerpo">
         <div className="card__lote">Lote #{v.id} · {v.tipoArticulo}</div>
