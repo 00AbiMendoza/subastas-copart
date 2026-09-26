@@ -11,7 +11,7 @@
     "cilindros": 4,
     "dano": "VERDE",
     "montoBase": 20000,
-    "dias": 2,
+    "dias": 7,
     "descripcion": "Golpe leve en defensa trasera. Enciende y camina. Llaves disponibles.",
     "publicador": "ana",
     "oferta": [
@@ -39,7 +39,7 @@
     "cilindros": 4,
     "dano": "AMARILLO",
     "montoBase": 25000,
-    "dias": 1,
+    "dias": 6,
     "descripcion": "Daño frontal lateral izquierdo, bolsas de aire intactas.",
     "publicador": "bruno",
     "fotos": [
@@ -63,7 +63,7 @@
     "cilindros": 8,
     "dano": "ROJO",
     "montoBase": 45000,
-    "dias": 3,
+    "dias": 8,
     "descripcion": "Salvamento por inundación. Se vende para repuestos o reconstrucción.",
     "publicador": "carla",
     "oferta": [
@@ -115,7 +115,7 @@
     "cilindros": 4,
     "dano": "AMARILLO",
     "montoBase": 18000,
-    "dias": 4,
+    "dias": 9,
     "descripcion": "Daño en cofre y faro derecho.",
     "publicador": "bruno",
     "oferta": [
@@ -143,7 +143,7 @@
     "cilindros": 4,
     "dano": "ROJO",
     "montoBase": 30000,
-    "dias": 2,
+    "dias": 7,
     "descripcion": "Volcadura. Estructura comprometida; ideal para piezas.",
     "publicador": "carla",
     "fotos": [
@@ -168,7 +168,7 @@
     "dano": "VERDE",
     "montoBase": 150000,
     "inicioHoras": 2,
-    "dias": 5,
+    "dias": 12,
     "descripcion": "Batería en buen estado. Daño cosmético en rin.",
     "publicador": "ana",
     "fotos": [
@@ -192,7 +192,7 @@
     "cilindros": 8,
     "dano": "AMARILLO",
     "montoBase": 38000,
-    "dias": 3,
+    "dias": 10,
     "descripcion": "Golpe en caja trasera, motor y transmisión funcionales.",
     "publicador": "bruno",
     "fotos": [

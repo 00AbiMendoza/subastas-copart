@@ -1,6 +1,9 @@
 # AutoSubasta GT — Subastas de vehículos en tiempo real (caso Copart)
 
-## 🌐 Sitio publicado: **_(pendiente de publicación)_**
+## 🌐 Sitio publicado: **https://autosubasta-gt.onrender.com**
+
+- API (estado): https://autosubasta-gt.onrender.com/api/health
+- Inventario (JSON): https://autosubasta-gt.onrender.com/api/vehiculos
 
 Plataforma desacoplada **Frontend (React SPA) + Web API REST (Node.js/Express) + Base de datos (SQL Server)**
 con **tiempo real vía WebSockets (Socket.IO)**. Los usuarios se registran, publican vehículos con ficha técnica,
@@ -147,5 +150,7 @@ Desarrollo con recarga en caliente: `npm run dev` (API en :3000) y `npm --prefix
 
 El archivo `render.yaml` define el servicio. En Render: **New → Blueprint →** seleccionar este repositorio → ingresar `DB_PASSWORD` → **Apply**.
 `JWT_SECRET` se genera automáticamente. Las tablas, catálogos y usuarios de prueba se crean solos al iniciar.
+Cada `git push` a `main` vuelve a desplegar el sitio. El workflow `.github/workflows/mantener-activo.yml` consulta
+`/api/health` cada 10 minutos para que el plan gratuito no suspenda el servicio.
 
 > Fotos de demostración: Wikimedia Commons (licencias libres).
