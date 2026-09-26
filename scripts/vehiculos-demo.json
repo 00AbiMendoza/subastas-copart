@@ -1,6 +1,6 @@
 [
   {
-    "anio": 2020,
+    "anio": 2012,
     "tipoArticulo": "Automóvil",
     "marca": "Toyota",
     "modelo": "Corolla LE",
@@ -19,13 +19,14 @@
       22000
     ],
     "fotos": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/2020_Toyota_Corolla_berline_SIAM_2019.jpg/1280px-2020_Toyota_Corolla_berline_SIAM_2019.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2020_Toyota_Corolla_Sedan_Hybrid_%28NA%29%2C_Cleveland_Auto_Show.jpg/1280px-2020_Toyota_Corolla_Sedan_Hybrid_%28NA%29%2C_Cleveland_Auto_Show.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/2020_Toyota_Corolla_Sedan_Hybrid_%28NA%29%2C_Cleveland_Auto_Show_%28Rear%29.jpg/1280px-2020_Toyota_Corolla_Sedan_Hybrid_%28NA%29%2C_Cleveland_Auto_Show_%28Rear%29.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2020_Toyota_Corolla_Sedan_XSE_%28NA%29%2C_Cleveland_Auto_Show.jpg/1280px-2020_Toyota_Corolla_Sedan_XSE_%28NA%29%2C_Cleveland_Auto_Show.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/2020_Toyota_Corolla_Sedan_XSE_%28NA%29%2C_Cleveland_Auto_Show_%28Rear%29.jpg/1280px-2020_Toyota_Corolla_Sedan_XSE_%28NA%29%2C_Cleveland_Auto_Show_%28Rear%29.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2020_Toyota_Corolla_LE_%28NA-market%29_front_4.29.19.jpg/1280px-2020_Toyota_Corolla_LE_%28NA-market%29_front_4.29.19.jpg"
-    ]
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Toyota_Corolla_LE_E150_Red_Mica_Metallic_%284%29.jpg/1280px-Toyota_Corolla_LE_E150_Red_Mica_Metallic_%284%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Toyota_Corolla_LE_E150_Red_Mica_Metallic_%287%29.jpg/1280px-Toyota_Corolla_LE_E150_Red_Mica_Metallic_%287%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Toyota_Corolla_LE_E150_Red_Mica_Metallic_%285%29.jpg/1280px-Toyota_Corolla_LE_E150_Red_Mica_Metallic_%285%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Toyota_Corolla_LE_E150_Red_Mica_Metallic_%2810%29.jpg/1280px-Toyota_Corolla_LE_E150_Red_Mica_Metallic_%2810%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Toyota_Corolla_LE_E150_Red_Mica_Metallic_%2815%29.jpg/1280px-Toyota_Corolla_LE_E150_Red_Mica_Metallic_%2815%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Toyota_Corolla_LE_E150_Red_Mica_Metallic_%2817%29.jpg/1280px-Toyota_Corolla_LE_E150_Red_Mica_Metallic_%2817%29.jpg"
+    ],
+    "color": "Rojo"
   },
   {
     "anio": 2019,
@@ -43,13 +44,14 @@
     "descripcion": "Daño frontal lateral izquierdo, bolsas de aire intactas.",
     "publicador": "bruno",
     "fotos": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2019_Honda_Civic_berline_au_SIAM_2019.jpg/1280px-2019_Honda_Civic_berline_au_SIAM_2019.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/2019_Honda_Civic_Sedan%2C_Cleveland_Auto_Show.jpg/1280px-2019_Honda_Civic_Sedan%2C_Cleveland_Auto_Show.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/2019_Honda_Civic_Si_Sedan%2C_Cleveland_Auto_Show.jpg/1280px-2019_Honda_Civic_Si_Sedan%2C_Cleveland_Auto_Show.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/2019_Honda_Civic_berline_au_SIAM_de_2019.jpg/1280px-2019_Honda_Civic_berline_au_SIAM_de_2019.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/2019_Honda_Civic_1.8_S_%288%29.jpg/1280px-2019_Honda_Civic_1.8_S_%288%29.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/2019_Honda_Civic_1.8_S_%2813%29.jpg/1280px-2019_Honda_Civic_1.8_S_%2813%29.jpg"
-    ]
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2019_Honda_Civic_1.8_S_%281%29.jpg/1280px-2019_Honda_Civic_1.8_S_%281%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/2019_Honda_Civic_1.8_S_%286%29.jpg/1280px-2019_Honda_Civic_1.8_S_%286%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2019_Honda_Civic_1.8_S_%2825%29.jpg/1280px-2019_Honda_Civic_1.8_S_%2825%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/2019_Honda_Civic_1.8_S_%2852%29.jpg/1280px-2019_Honda_Civic_1.8_S_%2852%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2019_Honda_Civic_1.8_S_%2821%29.jpg/1280px-2019_Honda_Civic_1.8_S_%2821%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/2019_Honda_Civic_1.8_S_%2822%29.jpg/1280px-2019_Honda_Civic_1.8_S_%2822%29.jpg"
+    ],
+    "color": "Rojo"
   },
   {
     "anio": 2018,
@@ -71,19 +73,20 @@
       49500
     ],
     "fotos": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2018_Ford_F-150_Limited_au_SIAM_2018.jpg/1280px-2018_Ford_F-150_Limited_au_SIAM_2018.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/2018_Ford_F-150_au_SIAM_2018.jpg/1280px-2018_Ford_F-150_au_SIAM_2018.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/2018_Ford_F-150_Platinum_au_SIAM_2018.jpg/1280px-2018_Ford_F-150_Platinum_au_SIAM_2018.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2018_Ford_F-150_XLT_rear_5.19.18.jpg/1280px-2018_Ford_F-150_XLT_rear_5.19.18.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/2018_Ford_F-150_Crew_Cab_rear_5.26.18.jpg/1280px-2018_Ford_F-150_Crew_Cab_rear_5.26.18.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2018_Ford_F-150_Crew_Cab_front_5.26.18.jpg/1280px-2018_Ford_F-150_Crew_Cab_front_5.26.18.jpg"
-    ]
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/%2715-%2717_Ford_F-150_XL_Crew_Cab.jpg/1280px-%2715-%2717_Ford_F-150_XL_Crew_Cab.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/%2715-%2717_Ford_F-150_Regular_Cab_St._Basile_Le_Grand.jpg/1280px-%2715-%2717_Ford_F-150_Regular_Cab_St._Basile_Le_Grand.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/%2716_Ford_F-150_XLT_Extended_Cab_%28Carrefour_Angrignon%29.jpg/1280px-%2716_Ford_F-150_XLT_Extended_Cab_%28Carrefour_Angrignon%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/%2716_Ford_F-150_Extended_Cab_%28Carrefour_Angrignon%29.jpg/1280px-%2716_Ford_F-150_Extended_Cab_%28Carrefour_Angrignon%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/%2717_Ford_F-150_Limited_Crew_Cab_%28MIAS_%2717%29.jpg/1280px-%2717_Ford_F-150_Limited_Crew_Cab_%28MIAS_%2717%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%2718-%2720_Ford_F-150_Crew_Cab_Marathon.jpg/1280px-%2718-%2720_Ford_F-150_Crew_Cab_Marathon.jpg"
+    ],
+    "color": "Blanco"
   },
   {
-    "anio": 2021,
+    "anio": 2024,
     "tipoArticulo": "SUV",
     "marca": "Jeep",
-    "modelo": "Wrangler Sport",
+    "modelo": "Wrangler Rubicon",
     "motor": "3.6L V6",
     "transmision": "Manual",
     "combustible": "Gasolina",
@@ -95,13 +98,14 @@
     "descripcion": "Rayones superficiales en puertas. Mecánicamente en buen estado.",
     "publicador": "ana",
     "fotos": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Jeep_Wrangler_Rubicon%2C_GIMS_2018%2C_Le_Grand-Saconnex_%281X7A1811%29.jpg/1280px-Jeep_Wrangler_Rubicon%2C_GIMS_2018%2C_Le_Grand-Saconnex_%281X7A1811%29.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/2018_Jeep_Wrangler_Unlimited_Sport_4-door_front_6.10.18.jpg/1280px-2018_Jeep_Wrangler_Unlimited_Sport_4-door_front_6.10.18.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Orange_%26_Black_Jeep_Wrangler_JL_on_N_Jones_Blvd.jpg/1280px-Orange_%26_Black_Jeep_Wrangler_JL_on_N_Jones_Blvd.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Dark_Blue_Jeep_Wrangler_Rubicon_JL_Turning_Onto_N_Jones_Blvd.jpg/1280px-Dark_Blue_Jeep_Wrangler_Rubicon_JL_Turning_Onto_N_Jones_Blvd.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/2021_Jeep_Wrangler_JL_two-door_Islander_3of3.jpg/1280px-2021_Jeep_Wrangler_JL_two-door_Islander_3of3.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/2021_Jeep_Wrangler_JL_two-door_Islander_2of3.jpg/1280px-2021_Jeep_Wrangler_JL_two-door_Islander_2of3.jpg"
-    ]
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%285%29.jpg/1280px-Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%285%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%282%29.jpg/1280px-Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%282%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%287%29.jpg/1280px-Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%287%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%2813%29.jpg/1280px-Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%2813%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%2821%29.jpg/1280px-Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%2821%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%2816%29.jpg/1280px-Jeep_Wrangler_Rubicon_2-Door_2.0_JL_FL_Black_Clear-Coat_%2816%29.jpg"
+    ],
+    "color": "Negro"
   },
   {
     "anio": 2020,
@@ -123,13 +127,14 @@
       18000
     ],
     "fotos": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/2020_Nissan_Sentra.jpg/1280px-2020_Nissan_Sentra.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/2020_Nissan_Sentra_rearview.jpg/1280px-2020_Nissan_Sentra_rearview.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/2020_Nissan_Sentra_SV.jpg/1280px-2020_Nissan_Sentra_SV.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/2020_Nissan_Sentra_au_SIAM_2020.jpg/1280px-2020_Nissan_Sentra_au_SIAM_2020.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/2021_Nissan_Sentra_front_view_%28Columbia%29.jpg/1280px-2021_Nissan_Sentra_front_view_%28Columbia%29.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/2020_Nissan_Sentra_SR_2.0L.jpg/1280px-2020_Nissan_Sentra_SR_2.0L.jpg"
-    ]
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/2020_Nissan_Sentra_SV%2C_front_10.22.20.jpg/1280px-2020_Nissan_Sentra_SV%2C_front_10.22.20.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/2020_Nissan_Sentra_SV_%282%29%2C_front_10.22.20.jpg/1280px-2020_Nissan_Sentra_SV_%282%29%2C_front_10.22.20.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2020_Nissan_Sentra_SV%2C_rear_10.22.20.jpg/1280px-2020_Nissan_Sentra_SV%2C_rear_10.22.20.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2020_Nissan_Sentra_SV_%282%29%2C_rear_10.22.20.jpg/1280px-2020_Nissan_Sentra_SV_%282%29%2C_rear_10.22.20.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/2024_Nissan_Sentra_%28B18%29_IMG_4029.jpg/1280px-2024_Nissan_Sentra_%28B18%29_IMG_4029.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg/1280px-2024_Nissan_Sentra_%28B18%29_DSC_3754.jpg"
+    ],
+    "color": "Blanco"
   },
   {
     "anio": 2020,
@@ -147,16 +152,17 @@
     "descripcion": "Volcadura. Estructura comprometida; ideal para piezas.",
     "publicador": "carla",
     "fotos": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Hyundai_Tucson_TL_Wien_26_July_2020_JM.jpg/1280px-Hyundai_Tucson_TL_Wien_26_July_2020_JM.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Hyundai_Tucson_%28TL%29_facelift_China_001.jpg/1280px-Hyundai_Tucson_%28TL%29_facelift_China_001.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Hyundai_Tucson_%28TL%29_facelift_China_002.jpg/1280px-Hyundai_Tucson_%28TL%29_facelift_China_002.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/HYUNDAI_TUCSON_%28TL%29_China.jpg/1280px-HYUNDAI_TUCSON_%28TL%29_China.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/HYUNDAI_TUCSON_%28TL%29_China_%282%29.jpg/1280px-HYUNDAI_TUCSON_%28TL%29_China_%282%29.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/HYUNDAI_TUCSON_%28TL%29_China_%283%29.jpg/1280px-HYUNDAI_TUCSON_%28TL%29_China_%283%29.jpg"
-    ]
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/00_hyundai_tucson_1.jpg/1280px-00_hyundai_tucson_1.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/00_hyundai_tucson_4.jpg/1280px-00_hyundai_tucson_4.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/00_hyundai_tucson_6.jpg/1280px-00_hyundai_tucson_6.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/00_hyundai_tucson_2.jpg/1280px-00_hyundai_tucson_2.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/0_Hyundai_Tucson_%28TL%29_3.jpg/1280px-0_Hyundai_Tucson_%28TL%29_3.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/0_Hyundai_Tucson_%28TL%29_4.jpg/1280px-0_Hyundai_Tucson_%28TL%29_4.jpg"
+    ],
+    "color": "Blanco"
   },
   {
-    "anio": 2023,
+    "anio": 2024,
     "tipoArticulo": "Automóvil",
     "marca": "Tesla",
     "modelo": "Model 3 Long Range",
@@ -172,13 +178,14 @@
     "descripcion": "Batería en buen estado. Daño cosmético en rin.",
     "publicador": "ana",
     "fotos": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Tesla_Model_3_1X7A6940.jpg/1280px-Tesla_Model_3_1X7A6940.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Tesla_Model_3_%282023%29_Auto_Zuerich_2023_1X7A1313.jpg/1280px-Tesla_Model_3_%282023%29_Auto_Zuerich_2023_1X7A1313.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Tesla_Model_3_%282023%29_1X7A1678.jpg/1280px-Tesla_Model_3_%282023%29_1X7A1678.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Tesla_Model_3_in_M%C3%BCnchen_geparkt.jpg/1280px-Tesla_Model_3_in_M%C3%BCnchen_geparkt.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Tesla_Model_3_%282023%29_Autofr%C3%BChling_Ulm_IMG_9282.jpg/1280px-Tesla_Model_3_%282023%29_Autofr%C3%BChling_Ulm_IMG_9282.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Tesla_Model_3_%282023%29_IMG_9488.jpg/1280px-Tesla_Model_3_%282023%29_IMG_9488.jpg"
-    ]
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%285%29.jpg/1280px-Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%285%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%286%29.jpg/1280px-Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%286%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%288%29.jpg/1280px-Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%288%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%281%29.jpg/1280px-Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%281%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%283%29.jpg/1280px-Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%283%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%284%29.jpg/1280px-Tesla_Model_3_Highland_Pearl_White_Multi-Coat_%284%29.jpg"
+    ],
+    "color": "Blanco perla"
   },
   {
     "anio": 2017,
@@ -196,12 +203,13 @@
     "descripcion": "Golpe en caja trasera, motor y transmisión funcionales.",
     "publicador": "bruno",
     "fotos": [
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/2017_chevrolet_silverado_1500_wt_regular_standard_obseve.jpg/1280px-2017_chevrolet_silverado_1500_wt_regular_standard_obseve.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/2017_chevrolet_silverado_1500_wt_regular_standard_reverse.jpg/1280px-2017_chevrolet_silverado_1500_wt_regular_standard_reverse.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Chevrolet_Silverado_2017_Pickup_Truck_Front.jpg/1280px-Chevrolet_Silverado_2017_Pickup_Truck_Front.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Chevrolet_Silverado_2017_Pickup_Truck_Side_Front.jpg/1280px-Chevrolet_Silverado_2017_Pickup_Truck_Side_Front.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Chevrolet_Silverado_2017_Pickup_Truck_Back.jpg/1280px-Chevrolet_Silverado_2017_Pickup_Truck_Back.jpg",
-      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Chevrolet_Silverado_2017_Pickup_Truck_Boot.jpg/1280px-Chevrolet_Silverado_2017_Pickup_Truck_Boot.jpg"
-    ]
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/2017_Chevrolet_Silverado_1500_4WD_Crew_Cab_Short_Bed_High_Country_Desert_Package_%28observe%29.jpg/1280px-2017_Chevrolet_Silverado_1500_4WD_Crew_Cab_Short_Bed_High_Country_Desert_Package_%28observe%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/2015_Chevrolet_Silverado_1500_LTZ%2C_front_2.29.20.jpg/1280px-2015_Chevrolet_Silverado_1500_LTZ%2C_front_2.29.20.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/2016_Chevrolet_Silverado_1500_LTZ_Z71_Crew_Cab_5.3L_Hagerty_parking_lot%2C_6.1.19.jpg/1280px-2016_Chevrolet_Silverado_1500_LTZ_Z71_Crew_Cab_5.3L_Hagerty_parking_lot%2C_6.1.19.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%2716_Chevrolet_Silverado_Crew_Cab_%28Carrefour_Angrignon%29.jpg/1280px-%2716_Chevrolet_Silverado_Crew_Cab_%28Carrefour_Angrignon%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/%2717_Chevrolet_Silverado_Crew_Cab_%28%2717_MIAS%29.jpg",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/2017_Chevrolet_Silverado_1500_4WD_Crew_Cab_Short_Bed_High_Country_Desert_Package_%28reverse%29.jpg/1280px-2017_Chevrolet_Silverado_1500_4WD_Crew_Cab_Short_Bed_High_Country_Desert_Package_%28reverse%29.jpg"
+    ],
+    "color": "Negro"
   }
 ]

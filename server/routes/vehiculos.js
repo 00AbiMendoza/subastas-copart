@@ -12,6 +12,9 @@ const router = Router();
 
 const urlFoto = (id, url) => url || `/api/fotos/${id}`;
 
+// Las fotos de Wikimedia se sirven en varios anchos; la portada de la tarjeta no necesita 1280 px.
+const portadaLigera = (url) => url.replace('/1280px-', '/500px-');
+
 const COLUMNAS = `
   v.VehiculoID, v.PublicadorID, v.Anio, v.TipoArticulo, v.Marca, v.Modelo, v.Motor, v.Transmision,
   v.Combustible, v.Tren, v.Cilindros, v.Dano, v.Descripcion, v.MontoBase, v.MontoActual, v.GanadorID,
@@ -40,7 +43,7 @@ function aJson(v, usuarioId) {
     fechaFin: v.FechaFin,
     estado,
     siguienteMinimo: siguienteMinimo(v),
-    portada: v.PortadaID || v.PortadaUrl ? urlFoto(v.PortadaID, v.PortadaUrl) : null,
+    portada: v.PortadaID || v.PortadaUrl ? portadaLigera(urlFoto(v.PortadaID, v.PortadaUrl)) : null,
     esMio: usuarioId != null && usuarioId === v.PublicadorID,
   };
 }

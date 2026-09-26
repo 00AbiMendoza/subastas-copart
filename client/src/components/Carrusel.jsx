@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
 
+// Miniaturas: versión reducida si la foto viene de Wikimedia (las subidas por usuarios ya van optimizadas).
+const miniatura = (url) => url.replace('/1280px-', '/330px-');
+
 export default function Carrusel({ fotos, titulo }) {
   const [i, setI] = useState(0);
   const total = fotos.length;
@@ -31,7 +34,7 @@ export default function Carrusel({ fotos, titulo }) {
       <div className="carrusel__miniaturas">
         {fotos.map((f, n) => (
           <button key={f.id} className={n === i ? 'activa' : ''} onClick={() => setI(n)} aria-label={`Ver foto ${n + 1}`}>
-            <img src={f.url} alt="" loading="lazy" />
+            <img src={miniatura(f.url)} alt="" loading="lazy" />
           </button>
         ))}
       </div>
